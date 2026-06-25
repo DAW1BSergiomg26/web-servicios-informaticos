@@ -1,0 +1,10 @@
+{
+  "name": "Servicios Informáticos - Sergio Daniel",
+  "short_name": "Servicios IT",
+  "description": "Landing de servicios informáticos: instalación, limpieza, optimización, backup y soporte básico.",
+  "start_url": "/web-servicios-informaticos/",
+  "display": "standalone",
+  "background_color": "#07111f",
+  "theme_color": "#07111f",
+  "lang": "es"
+}
