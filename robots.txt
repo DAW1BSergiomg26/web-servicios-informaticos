@@ -1,0 +1,4 @@
+﻿User-agent: *
+Allow: /
+
+Sitemap: https://daw1bsergiomg26.github.io/web-servicios-informaticos/sitemap.xml
