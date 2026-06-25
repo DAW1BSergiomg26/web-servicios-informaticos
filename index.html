@@ -1,12 +1,114 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Servicios informáticos de Sergio Daniel: instalación de Windows, limpieza, optimización, copias de seguridad, soporte remoto y mantenimiento de equipos.">
   <title>Servicios Informáticos - Sergio Daniel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <h1>Servicios Informáticos</h1>
-  <p>Proyecto inicial.</p>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Ir al inicio">
+      <span class="brand-mark">SD</span>
+      <span>Servicios Informáticos</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="#servicios">Servicios</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#precios">Precios</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="hero-content reveal">
+        <p class="eyebrow">Soporte · mantenimiento · optimización</p>
+        <h1>Servicios informáticos claros, rápidos y cercanos</h1>
+        <p class="hero-lead">
+          Ayuda para instalar Windows, limpiar equipos lentos, hacer copias de seguridad, configurar programas básicos y recuperar rendimiento sin complicarte.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#contacto">Pedir ayuda</a>
+          <a class="btn ghost" href="#servicios">Ver servicios</a>
+        </div>
+      </div>
+      <aside class="hero-card reveal">
+        <div class="card-icon">⚙</div>
+        <h2>Diagnóstico primero</h2>
+        <p>Antes de tocar nada, reviso el problema, explico opciones y evito borrar datos sin permiso.</p>
+        <ul class="check-list">
+          <li>Trato claro</li>
+          <li>Copias de seguridad</li>
+          <li>Soluciones prácticas</li>
+          <li>Sin promesas raras</li>
+        </ul>
+      </aside>
+    </section>
+
+    <section id="servicios" class="content-section reveal">
+      <p class="eyebrow">Servicios</p>
+      <h2>Qué puedo hacer por tu equipo</h2>
+      <div class="service-grid">
+        <article class="service-card"><span>01</span><h3>Instalación de Windows</h3><p>Instalación limpia, configuración básica, drivers y programas esenciales.</p></article>
+        <article class="service-card"><span>02</span><h3>Limpieza y optimización</h3><p>Revisión de inicio, temporales, espacio, programas innecesarios y rendimiento general.</p></article>
+        <article class="service-card"><span>03</span><h3>Copias de seguridad</h3><p>Respaldo de documentos, fotos y archivos importantes antes de formatear o reparar.</p></article>
+        <article class="service-card"><span>04</span><h3>Soporte remoto</h3><p>Ayuda para problemas sencillos de software, configuración y dudas básicas.</p></article>
+        <article class="service-card"><span>05</span><h3>Mantenimiento preventivo</h3><p>Revisión periódica para evitar lentitud, errores y pérdida de datos.</p></article>
+        <article class="service-card"><span>06</span><h3>Asesoramiento básico</h3><p>Recomendaciones para mejorar equipo, elegir sistema o preparar el PC para estudiar/trabajar.</p></article>
+      </div>
+    </section>
+
+    <section id="proceso" class="content-section reveal">
+      <p class="eyebrow">Proceso</p>
+      <h2>Trabajo paso a paso</h2>
+      <div class="timeline">
+        <article><strong>1</strong><h3>Revisión</h3><p>Escucho el problema y reviso el estado del equipo.</p></article>
+        <article><strong>2</strong><h3>Diagnóstico</h3><p>Explico qué ocurre, qué se puede hacer y qué riesgos hay.</p></article>
+        <article><strong>3</strong><h3>Solución</h3><p>Aplico la reparación o configuración acordada.</p></article>
+        <article><strong>4</strong><h3>Entrega</h3><p>Compruebo que funciona y explico cómo cuidarlo mejor.</p></article>
+      </div>
+    </section>
+
+    <section id="precios" class="content-section reveal">
+      <p class="eyebrow">Precios orientativos</p>
+      <h2>Servicios simples y transparentes</h2>
+      <div class="price-grid">
+        <article class="price-card"><h3>Diagnóstico básico</h3><p class="price">Desde 10 €</p><p>Revisión inicial y recomendación clara.</p></article>
+        <article class="price-card featured"><h3>Limpieza + optimización</h3><p class="price">Desde 25 €</p><p>Mejora de rendimiento y limpieza de software.</p></article>
+        <article class="price-card"><h3>Instalación de sistema</h3><p class="price">Desde 35 €</p><p>Instalación y configuración inicial.</p></article>
+      </div>
+      <p class="note">Los precios son orientativos. El coste real depende del estado del equipo, tiempo necesario y tipo de servicio.</p>
+    </section>
+
+    <section id="faq" class="content-section reveal">
+      <p class="eyebrow">Preguntas frecuentes</p>
+      <h2>Dudas normales antes de pedir ayuda</h2>
+      <div class="faq-list">
+        <details><summary>¿Se pueden perder mis archivos?</summary><p>Antes de formatear o reparar, lo correcto es revisar y hacer copia de seguridad de los datos importantes.</p></details>
+        <details><summary>¿El PC quedará como nuevo?</summary><p>No siempre. Algunos equipos están limitados por hardware antiguo, disco lento o poca memoria, pero sí se puede mejorar bastante en muchos casos.</p></details>
+        <details><summary>¿Puedes ayudar de forma remota?</summary><p>Sí, si el problema es de software básico y el equipo todavía puede conectarse a internet.</p></details>
+      </div>
+    </section>
+
+    <section id="contacto" class="content-section contact-section reveal">
+      <p class="eyebrow">Contacto</p>
+      <h2>Cuéntame qué le pasa a tu equipo</h2>
+      <p>Describe el problema, el modelo del equipo si lo sabes, qué Windows usas y desde cuándo empezó el fallo.</p>
+      <a class="btn primary" href="mailto:menu2informatico@gmail.com?subject=Consulta%20servicios%20informaticos">Enviar consulta</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Servicios Informáticos · Sergio Daniel Martínez Gómez · Proyecto DAW con uso real.</p>
+  </footer>
+
+  <script src="js/app.js"></script>
 </body>
 </html>
